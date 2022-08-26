@@ -1,0 +1,73 @@
+body{
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3rem 0 3rem;
+
+}
+nav > img{
+    width: 17%;
+    /* height: 60px; */
+}
+ul{
+    margin-top: 2rem;
+    display: flex;
+}
+li > a{
+    color: aliceblue;
+    text-decoration: none;
+}
+li > a:hover{
+    color: blue;
+    cursor: pointer;
+}
+ul > li{
+    font-family: sans-serif;
+    font-size: 17px;
+    margin: 15px;
+}
+.box{
+    display: flex;
+}
+.sec1 > h3{
+    color: #fff;
+    font-size: 3rem;
+    font-family: stystem-ui;
+    margin: 0;
+}
+.sec1 > h4{
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    margin: 0;
+}
+.sec1 > p{
+    color: #fff;
+    font-family: sans-serif;
+    width: 75%;
+}
+.sec1{
+    margin: 6rem 3rem;
+}
+.sec2{
+    margin: -1rem 3rem;
+}
+.sec2:hover{
+    transform: translate(30px);
+    transition: 2s ease all;
+}
+.button > a{
+    border: 1px solid white;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.7rem 2rem;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
+.sec1 > .button{
+    margin-top: 3rem;
+}
